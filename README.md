@@ -1,4 +1,4 @@
 # maven-academy
 Maven Academy site lookalike....
-# cred: 
+# design cred: 
 https://themavenacademy.one/
