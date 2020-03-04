@@ -1,0 +1,41 @@
+footer {
+    color: white;
+    background-color: $theme;
+    .items {
+        width: calc(100% - 200px);
+        display: inline-flex;
+        padding: 100px;
+        div {
+            text-align: left;
+            width: 25%;
+            line-height: 3;
+            strong {
+                color: $lightblue;
+                font-size: 14px;
+            }
+            ul {
+                li {
+                    font-size: 12px;
+                    a {
+                        color: #fff;
+                    }
+                }
+                .phone-num {
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    section {
+        padding: 50px;
+        background-color: $darker;
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            padding: 10px;
+        }
+    }
+}

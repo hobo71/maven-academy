@@ -1,0 +1,153 @@
+/* variables*/
+/* imports*/
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+footer {
+  color: white;
+  background-color: #36414c;
+}
+
+footer .items {
+  width: calc(100% - 200px);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 100px;
+}
+
+footer .items div {
+  text-align: left;
+  width: 25%;
+  line-height: 3;
+}
+
+footer .items div strong {
+  color: #5b9de3;
+  font-size: 14px;
+}
+
+footer .items div ul li {
+  font-size: 12px;
+}
+
+footer .items div ul li a {
+  color: #fff;
+}
+
+footer .items div ul .phone-num {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+footer section {
+  padding: 50px;
+  background-color: #4a5054;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer section img {
+  padding: 10px;
+}
+
+/* styles*/
+main {
+  height: 80vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  list-style: none;
+}
+
+nav {
+  padding: 13px 24px;
+  background-color: #36414c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  width: 113px;
+  height: 44px;
+}
+
+nav .nav-links {
+  max-width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav .nav-links a {
+  margin-right: 58px;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  text-decoration: none;
+  transition: width 500ms;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  position: relative;
+  color: #ffffff;
+  -webkit-transition: width 500ms;
+  -moz-transition: width 500ms;
+  -ms-transition: width 500ms;
+  -o-transition: width 500ms;
+}
+
+nav .nav-links a:hover::after, nav .nav-links a:active::after {
+  content: " ";
+  min-width: 100%;
+  border-radius: 4px;
+  padding: 1px;
+  background-color: #5b9de3;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+nav .nav-links .btn {
+  color: #fff;
+  background-color: #5b9de3;
+  border: none;
+  border-radius: 13px;
+  padding: .375rem .75rem;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+
+nav .nav-links .btn:hover {
+  background-color: #fff;
+  color: #5b9de3;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,95 @@
+/* variables*/
+
+$theme: #36414c;
+$darker: #4a5054;
+$lightblue: #5b9de3;
+$font:'Titillium Web',
+sans-serif;
+
+/* imports*/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+@import "./footer";
+
+/* styles*/
+
+main {
+    height: 80vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    list-style: none;
+}
+
+nav {
+    padding: 13px 24px;
+    background-color: $theme;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+        width: 113px;
+        height: 44px;
+    }
+    .nav-links {
+        max-width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        a {
+            margin-right: 58px;
+            transition-timing-function: linear;
+            text-decoration: none;
+            transition: width 500ms;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.67;
+            letter-spacing: normal;
+            position: relative;
+            color: #ffffff;
+            -webkit-transition: width 500ms;
+            -moz-transition: width 500ms;
+            -ms-transition: width 500ms;
+            -o-transition: width 500ms;
+            &:hover,
+            &:active {
+                &::after {
+                    content: " ";
+                    min-width: 100%;
+                    border-radius: 4px;
+                    padding: 1px;
+                    background-color: $lightblue;
+                    position: absolute;
+                    left: 0;
+                    bottom: -10px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    -ms-border-radius: 4px;
+                    -o-border-radius: 4px;
+                }
+            }
+        }
+        .btn {
+            color: #fff;
+            background-color: $lightblue;
+            border: none;
+            border-radius: 13px;
+            padding: .375rem .75rem;
+            -webkit-border-radius: 13px;
+            -moz-border-radius: 13px;
+            -ms-border-radius: 13px;
+            -o-border-radius: 13px;
+            &:hover {
+                background-color: #fff;
+                color: $lightblue;
+            }
+        }
+    }
+}
